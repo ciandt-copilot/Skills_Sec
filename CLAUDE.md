@@ -26,8 +26,8 @@ HOW-TO.md                          # quick reference for end users
 ## Install
 
 ```bash
-/install marketplace ciandt-copilot/Skills_Sec
-/install plugin sdlc-security
+claude plugin marketplace add ciandt-copilot/Skills_Sec
+claude plugin install sdlc-security@Skills_Sec
 ```
 
 ## How to add a new skill

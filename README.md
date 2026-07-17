@@ -91,8 +91,8 @@ plugins/
 Install as a Claude Code marketplace — no cloning, no copying:
 
 ```bash
-/install marketplace ciandt-copilot/Skills_Sec
-/install plugin sdlc-security
+claude plugin marketplace add ciandt-copilot/Skills_Sec
+claude plugin install sdlc-security@Skills_Sec
 ```
 
 Then run any skill with `/skill-name` in any project.
