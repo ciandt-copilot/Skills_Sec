@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "Skills_Sec",
+  "description": "SDLC Security Skills Suite for Claude Code — 6 skills covering the full secure software development lifecycle",
+  "owner": {
+    "name": "CI&T Copilot",
+    "email": "copilot@ciandt.com"
+  },
+  "plugins": [
+    {
+      "name": "sdlc-security",
+      "description": "Security skills covering the full SDLC: STRIDE threat modeling, SAST, secrets scanning, dependency audit, PR gate, SBOM",
+      "version": "1.0.0",
+      "author": {
+        "name": "CI&T Copilot",
+        "email": "copilot@ciandt.com"
+      },
+      "source": "./plugins/sdlc-security",
+      "category": "security"
+    }
+  ]
+}

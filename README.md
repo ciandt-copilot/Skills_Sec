@@ -69,21 +69,32 @@ Release →  /sbom-audit
 ## File Structure
 
 ```
-.claude/skills/
-├── sdlc-threat-model.md
-├── sast-advisor.md
-├── secrets-scanner.md
-├── dependency-audit.md
-├── secure-code-review.md
-├── sbom-audit.md
-└── HOW-TO.md
+.claude-plugin/
+└── marketplace.json
+plugins/
+└── sdlc-security/
+    ├── .claude-plugin/plugin.json
+    ├── README.md
+    └── skills/
+        ├── sdlc-threat-model/SKILL.md
+        ├── sast-advisor/SKILL.md
+        ├── secrets-scanner/SKILL.md
+        ├── dependency-audit/SKILL.md
+        ├── secure-code-review/SKILL.md
+        └── sbom-audit/SKILL.md
 ```
 
 ---
 
 ## Getting Started
 
-1. Clone this repository
-2. Copy the `.claude/skills/` folder into your project root
-3. Open the project in Claude Code
-4. Run any skill with `/skill-name`
+Install as a Claude Code marketplace — no cloning, no copying:
+
+```bash
+/install marketplace ciandt-copilot/Skills_Sec
+/install plugin sdlc-security
+```
+
+Then run any skill with `/skill-name` in any project.
+
+See [`plugins/sdlc-security/README.md`](plugins/sdlc-security/README.md) for the full plugin reference.

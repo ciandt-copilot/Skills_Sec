@@ -1,0 +1,9 @@
+{
+  "name": "sdlc-security",
+  "version": "1.0.0",
+  "description": "SDLC Security Skills Suite — STRIDE threat modeling, SAST, secrets scanning, dependency audit, secure code review, and SBOM audit",
+  "author": {
+    "name": "CI&T Copilot",
+    "email": "copilot@ciandt.com"
+  }
+}
